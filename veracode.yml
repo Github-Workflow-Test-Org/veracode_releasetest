@@ -13,6 +13,7 @@ veracode_static_scan:
     target_branch:
       - default_branch
   analysis_on_platform: true
+  analysis_branch: 'default_branch'
   break_build_policy_findings: true
   break_build_invalid_policy: false
   break_build_on_error: true
